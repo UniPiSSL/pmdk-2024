@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Client Chest</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row" style="min-height: 200px;">
+			<div class="col-7">
+				<div id="say">
+					Μόνο ο πιο σοφός ήρωας θα είναι σε θέση να ξεκλειδώσει τον αρχαίο θησαυρό!
+				</div>
+			</div>
+			<div class="col-5">
+				<img src="old-man.png">
+			</div>
+		</div>
+		<div class="row my-4">
+			<div class="col-12">
+				<img src="chest.png">
+			</div>
+		</div>
+		<div class="row">
+			<div id="wrapper">
+				<h2>Enter the Secret</h2>
+				<h1>Password</h1>
+				<input type="password" id="password" class="form-control" placeholder="Password">
+				<button onclick="checkPassword()" class="btn btn-primary mt-3">Unlock Ancient Chest</button>
+				<div id="flag"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="script.js"></script>
+</body>
+</html>

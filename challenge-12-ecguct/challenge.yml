@@ -1,0 +1,38 @@
+# Challenge's Metadata
+name: "Ecguct"
+category: Crypto
+description: "Τα μυστικά μου διέρρεαν συνέχεια μέχρι να βρω έναν τρόπο να τα ασφαλίσω. Εν τέλει βρήκα έναν τρόπο να τα μετατοπίσω..."
+
+author: "Alexandros Pallis <alexandros_pallis@ssl-unipi.gr>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{Ca3s4r_1s_vuln3r4bl3_n0_m4tt3r_wh4t!!}
+
+topics:
+    - Caesar Cipher
+    - Brute Force
+
+tags:
+    - Εύκολη
+    - Κρυπτογραφία
+    - Crptography
+
+files:
+    - dist/crypto-ecguct.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

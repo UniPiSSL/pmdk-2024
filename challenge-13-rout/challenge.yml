@@ -1,0 +1,40 @@
+# Challenge's Metadata
+name: "rout"
+category: Crypto
+description: "ERSA, Euler Rivest Shamir Adleman."
+
+author: "Alexandros Pallis <alexandros_pallis@ssl-unipi.gr>, Aris Tressos"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{s0lv1ng_qu4dr4t1c_3qu4t10n5_l1k3_3ul3r}
+
+topics:
+    - RSA
+    - Euler totient
+    - Quadratic Equation
+    - Sage
+
+tags:
+    - Δύσκολη
+    - Κρυπτογραφία
+    - Crptography
+
+files:
+    - dist/crypto-rout.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

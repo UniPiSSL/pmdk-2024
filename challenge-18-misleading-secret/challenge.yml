@@ -1,0 +1,37 @@
+# Challenge's Metadata
+name: "Misleading Secret"
+category: Forensics
+description: "Το πραγματικό μυστικό δεν είναι αυτό που φαίνεται."
+
+author: "Nasia Kollarou <athanasia_kollarou@ssl-unipi.gr>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{h1dd3n_1n_pla1n_sight}
+
+topics:
+    - Broken file headers
+
+tags:
+    - Εύκολη
+    - Digital Forensics
+    - Ψηφιακή Εγκληματολογία
+
+files:
+    - dist/forensics-misleading-secret.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

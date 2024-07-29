@@ -1,0 +1,40 @@
+# Challenge's Metadata
+name: "Twisted Algebra"
+category: Crypto
+description: "Ένας πελάτης της τράπεζας στην οποία δουλεύω έχασε τον κωδικό πρόσβασής του. Σου επισυνάπτω τον κώδικα που χρησιμοποιήσαμε για να τον κρυπτογραφήσουμε. Η δουλειά σου ως εκπρόσωπος του IT είναι να τον ανακτήσεις.\n\nΔημιουργός: ApparentlyPlus @ Πανεπιστήμιο Μακεδονίας"
+
+author: "ApparentlyPlus @ Πανεπιστήμιο Μακεδονίας"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{https://www.youtube.com/watch?v=-Djq3QihTyA}
+
+topics:
+    - Exploitation του "random" module της Pyhton
+    - Γνώση του pseudo random genereator "Mersenne Twister"
+    - Εφαρμογή των γνώσεων της συνάρτησης Φ του Euler
+    - Εκτεταμένη εφαρμογή του πρωτοκόλλου RSA
+    - Βασικές γνώσεις πολυωνύμων και symbolic python (sympy)
+
+tags:
+    - Υπερβολικά Δύσκολη
+    - Κρυπτογραφία
+    - Crptography
+
+files:
+    - dist/crypto-twisted-algebra.zip
+
+hints:
+    - {
+        content: "Από τότε που ήμουν μικρός, πάντα αναρωτιόμουν: Πώς μπορούν οι υπολογιστές να δημιουργήσουν τυχαίους αριθμούς αν στην πραγματικότητα απλώς ακολουθούν ένα σύνολο προκαθορισμένων εντολών;\n\nΊσως η πιο διάσημη δημιουργία του Makoto Matsumoto ήταν η απάντηση που έψαχνα =)",
+        cost: 0
+      }  
+
+state: hidden
+version: "0.1"

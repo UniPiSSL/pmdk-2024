@@ -1,0 +1,1 @@
+FLAG = b'FLAG{l4rg3_m0dul0_w1th_sm4ll_k3ysp4c3}'

@@ -1,0 +1,52 @@
+body {
+	font-family: 'Press Start 2P', cursive;
+	background-color: #2e2b39;
+	color: #fff;
+	text-align: center;
+	padding: 100px;
+}
+input {
+	margin-top: 10px;
+}
+#say {
+	border: 4px solid white;
+	padding: 10px 15px;
+	border-radius: 10px;
+	float: right;
+	width: 350px;
+	background-color: #301f39;
+	word-break: break-all;
+}
+#say.wrong {
+	color: #ffc7c3;
+	border-color: #ffc7c3;
+}
+#say.correct {
+	color: #d0ffd0;
+	border-color: #d0ffd0;
+}
+
+img[src="old-man.png"] {
+	width: 150px;
+	float:left;
+}
+img[src="chest.png"] {
+	width: 200px;
+}
+#wrapper {
+	width: 540px;
+	margin: 20px auto;
+}
+h1 {
+	font-size: 4rem;
+}
+input {
+	text-align: center;
+}
+.btn {
+	width: 100%;
+}
+#flag {
+	margin-top: 20px;
+	display: none;
+}

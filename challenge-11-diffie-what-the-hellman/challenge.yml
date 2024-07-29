@@ -1,0 +1,42 @@
+# Challenge's Metadata
+name: "Diffie What the Hellman"
+category: Crypto
+description: "Ο Bob και η Alice επιμένουν ότι το κρυπτοσύστημα ανταλλαγής κλειδιών που έχουν υλοποιήσει δεν έχει κενά ασφαλείας. Μπορείς να τους αποδείξεις λάθος;"
+
+author: "Alexandros Pallis <alexandros_pallis@ssl-unipi.gr>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: docker-dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+    docker_image: ctf-pmdk/crypto:diffie-what-the-hellman
+
+deploy:
+    docker_challenges: dist/docker-challenge.tar
+
+flags:
+    - FLAG{n0_p4ram_f1lt3r_==_n0_s3cure_s3cr3t}
+
+topics:
+    - Diffie Hellman
+    - Parameter Injection
+
+tags:
+    - Mέτρια
+    - Κρυπτογραφία
+    - Cryptography
+
+files:
+    - dist/crypto-diffie-what-the-hellman.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

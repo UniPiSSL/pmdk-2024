@@ -1,0 +1,37 @@
+# Challenge's Metadata
+name: "brokenSign"
+category: Forensics
+description: "Η παράδοση ενός σημαντικού έγγραφου επείγει αλλά κατά την αποστολή φαίνεται να έχει υποστεί κάποια ζημιά και δεν ανοίγει με τον συνήθη τρόπο."
+
+author: "Nasia Kollarou <athanasia_kollarou@ssl-unipi.gr>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{C0rrupt3d_F1l3s_N33d_1nsp3ct10n}
+
+topics:
+    - Broken file headers
+
+tags:
+    - Εύκολη
+    - Digital Forensics
+    - Ψηφιακή Εγκληματολογία
+
+files:
+    - dist/forensics-broken-sign.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

@@ -1,0 +1,41 @@
+# Challenge's Metadata
+name: "Hacktrox"
+category: Pwn
+description: "Κάντε τα κείμενα σας πιο χακερίστικα με την εφαρμογή Hacktrox."
+
+author: "Mike Takaronis <mtakaronis@ssl-unipi.gr>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: docker-dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+    docker_image: ctf-pmdk/pwn:hacktrox
+
+deploy:
+    docker_challenges: dist/docker-challenge.tar
+
+flags:
+    - FLAG{h4cky_t3xt_f0r_th3_w1n_06dbba9e5c373c437043ca6684b7f09c}
+
+topics:
+    - knowlege-and-skills-required-by-the-user
+
+tags:
+    - Εύκολη
+    - Pwn
+    - Κατάκτηση
+
+files:
+    - dist/pwn-hacktrox.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

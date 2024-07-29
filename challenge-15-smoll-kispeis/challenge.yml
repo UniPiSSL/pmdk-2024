@@ -1,0 +1,39 @@
+# Challenge's Metadata
+name: "Smoll Kispeis"
+category: Crypto
+description: "Είμαι control freek και θέλω τα πάντα σε τάξη... H κρυπτογραφία δεν αποτελεί εξαίρεση!"
+
+author: "Alexandros Pallis <alexandros_pallis@ssl-unipi.gr>, aris tressos"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{l4rg3_m0dul0_w1th_sm4ll_k3ysp4c3}
+
+topics:
+    - LCG
+    - Brute Force
+    - AES
+
+tags:
+    - Εύκολη
+    - Κρυπτογραφία
+    - Crptography
+
+files:
+    - dist/crypto-smoll-kispeis.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

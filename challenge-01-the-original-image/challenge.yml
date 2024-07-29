@@ -1,0 +1,39 @@
+# Challenge's Metadata
+name: "Η Αυθεντική Φωτογραφία"
+category: Misc
+description: "Κάποιος έκανε μια ανάρτηση στα μέσα κοινωνικής δικτύωσης με μια φωτογραφία για τον ΠΜΔΚ 2024... αλλά νομίζω αφαίρεσε κάτι από την φωτογραφία.\n\nΜπορείς να βρεις την αυθεντική φωτογραφία και να βρεις τι αφαιρέθηκε; Ίσως εκεί κρύβεται το κλειδί για αυτήν την σημαία."
+
+author: "Athanasios Vasileios Grammatopoulos <gramthanos@gmail.com>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{acbfffb8ca3b5dc48b1be87d9b7fedbc68d288f34ceb8190d47607c305f30a60}
+
+topics:
+    - Εισαγωγικές γνώσεις σε συλλογή πληροφοριών από ανοικτές πηγές (OSINT)
+    - Γνώσεις επεξεργασίας εικόνας
+    - Γνώσεις αποκωδικοποίησης barcode
+
+tags:
+    - Μέτρια
+    - Συλλογή πληροφοριών από ανοικτές πηγές
+    - Open Source Intelligence (OSINT)
+
+files:
+    - dist/misc-the-original-image.zip
+
+#hints:
+#    - {
+#        content: "Thi is affected by corrupted magic power!",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

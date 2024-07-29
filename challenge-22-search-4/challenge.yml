@@ -1,0 +1,42 @@
+# Challenge's Metadata
+name: "Search 4"
+category: Web
+description: "Ανέπτυξα μια απλή εφαρμογή την οποία μπορείτε να χρησιμοποιήσετε όταν το CTRL+F σας δεν λειτουργεί."
+
+author: "Athanasios Vasileios Grammatopoulos <gramthanos@gmail.com>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: docker-dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+    docker_image: ctf-pmdk/web:search-4
+
+deploy:
+    docker_challenges: dist/docker-challenge.tar
+
+flags:
+    - FLAG{w0W!-yoU-d0nT_h4VE-to-U5e_CTrl+F-3VER-4Ga1n!}
+
+topics:
+    - Bypass Mechanics
+    - HTTP Redirect
+
+tags:
+    - Εύκολη
+    - Παγκόσμιος Ιστός
+    - Web
+
+files:
+    - dist/web-search-4.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

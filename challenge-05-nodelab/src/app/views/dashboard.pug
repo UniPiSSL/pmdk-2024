@@ -1,0 +1,16 @@
+extends base.pug
+
+block content
+  
+  div#noteModal.hidden
+    .modal-content
+      h1 ~ Δημιουργία σημείωσης ~ 
+      p Τίτλος:
+      textarea#noteTitle(rows="1", cols="50")
+      p Περιεχόμενο:
+      textarea#noteInput(rows="10", cols="50")
+    button#submitNoteBtn Υποβολή
+  div#modalBackdrop.hidden
+  div#notesMain 
+    h1 ~ Οι σημειώσεις σας ~
+    div#notesJson

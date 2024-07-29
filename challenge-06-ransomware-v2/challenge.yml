@@ -1,0 +1,36 @@
+# Challenge's Metadata
+name: "Ransomware v2"
+category: Rev
+description: "Η εταιρία μας ξαναέπεσε θύμα κυβερνοεπίθεσης (oops!), όμως αυτή την φορά οι εγκληματίες έμαθαν από τα λάθη τους και έτσι δεν διέρρευσε ο πηγαίος κώδικας του λυτρισμικού. Μπορείς να σώσεις τα αρχεία μας?\n\nΔημιουργός: ***REMOVED*** (saspect)"
+
+author: "***REMOVED*** (saspect)"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{m4g1c_byt3s_54v3_f1l35}
+
+#topics:
+#    - 
+
+tags:
+    - Δύσκολη
+    - Αντίστροφη Mηχανική
+    - Reverse Engineering
+
+files:
+    - dist/rev-ransomware-v2.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

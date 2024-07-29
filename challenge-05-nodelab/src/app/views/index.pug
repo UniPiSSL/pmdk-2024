@@ -1,0 +1,43 @@
+doctype html
+html(lang="el")
+  head
+    title Nodelab ~ Αρχική
+    link(rel="stylesheet", href="/css/styles.css")
+    link(rel="icon" type="image/x-icon" href="/img/favicon.ico")
+    script(src="/js/index.js")
+    script(src="/js/displayBox.js")
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  body
+    .container
+      .logo
+        img(src="/img/logo.png", alt="Logo")
+      h3 ~ Καλωσορίσατε στην Nodelab ~
+      p Η Nodelab είναι μια σύγχρονη διαδικτυακή εφαρμογή που φτιάχτηκε από μαθητές, για μαθητές. Ο σκοπός της είναι να σας βοηθήσει να οργανώνεστε καλύτερα και να διαβάζετε αποτελεσματικότερα. Διαθέτει έναν μινιμαλιστικό σχεδιασμό που σας επιτρέπει να αποθηκεύετε και να διαχειρίζεστε τις σημειώσεις σας εύκολα. Κάθε σημείωση έχει το δικό της UUID, προσφέροντάς σας τη δυνατότητα να τις μοιράζεστε με άλλους μαθητές.
+      .form-container
+        form#loginForm(method="post", onsubmit="submitLoginForm(event)", action="/api/auth/login")
+          .form-group
+            label(for="username") Όνομα χρήστη
+            input#username(type="text", name="username", autocomplete="off")
+          .form-group
+            label(for="password") Κωδικός πρόσβασης
+            input#password(type="password", name="password", autocomplete="off")
+          .submit
+            button(type="submit") Σύνδεση
+            button#registerBtn(onclick="switchForm('register')") Είμαι νέος χρήστης
+        form#registerForm(method="post", onsubmit="submitRegisterForm(event)", action="/api/auth/register", style="display: none")
+          .form-group
+            label(for="username") Όνομα χρήστη
+            input#newUsername(type="text", name="username", autocomplete="off")
+          .form-group
+            label(for="school") Σχολείο
+            input#newSchool(type="text", name="school", autocomplete="off")
+          .form-group
+            label(for="password") Κωδικός πρόσβασης
+            input#newPassword(type="password", name="password", autocomplete="off")
+          .submit
+            button(type="submit") Εγγραφή
+            button#loginBtn(onclick="switchForm('login')") Έχω ήδη λογαριασμό
+  .footer-index
+    footer
+    |  Nodelab &copy; 2024

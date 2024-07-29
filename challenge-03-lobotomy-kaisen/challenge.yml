@@ -1,0 +1,37 @@
+# Challenge's Metadata
+name: "Lobotomy Kaisen"
+category: Crypto
+description: "Προσπαθώ εδώ και ώρες να ανακτήσω το μυστικό σύνθημα που κρύβεται μέσα στον κώδικα, αλλά μια κρυπτογραφική κατάρα το προστατεύει! Έχεις τη δύναμη να την κερδίσεις;\n\nΔημιουργός: ApparentlyPlus @ Πανεπιστήμιο Μακεδονίας"
+
+author: "ApparentlyPlus @ Πανεπιστήμιο Μακεδονίας"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{n4h_I’d_w1n_~_s4t0ru_G0Jo}
+
+topics:
+    - Κατανόηση του RSA
+    - Εφαρμογή βασικών γνώσεων κρυπτογραφίας
+
+tags:
+    - Δύσκολη
+    - Κρυπτογραφία
+    - Cryptography
+
+files:
+    - dist/crypto-lobotomy-kaisen.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

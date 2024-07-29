@@ -1,0 +1,16 @@
+/* Custom Style */
+body {
+}
+
+h1.display-4 span {
+	color: orange;
+}
+
+.container {
+	max-width: 600px;
+}
+
+.small {
+	font-size: 0.8em;
+	color: #999999;
+}

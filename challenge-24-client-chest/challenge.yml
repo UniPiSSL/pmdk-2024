@@ -1,0 +1,42 @@
+# Challenge's Metadata
+name: "Client Chest"
+category: Web
+description: "Πολλοί προσπάθησαν, αλλά δεν τα κατάφεραν. Μπορείς να ξεκλειδώσεις τον θησαυρό?"
+
+author: "Athanasios Grammatopoulos <gramthanos@gmail.com>"
+homepage: "https://github.com/GramThanos"
+
+type: docker-dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+    docker_image: ctf-pmdk/web:client-chest
+
+deploy:
+    docker_challenges: dist/docker-challenge.tar
+
+flags:
+    - FLAG{d3v-t00l5-pr0-oR-JS-h4cKeR?}
+
+topics:
+    - JavaScript
+    - Developer Tools
+
+tags:
+    - Εύκολη
+    - Παγκόσμιος Ιστός
+    - Web
+
+#files:
+#    - dist/web-web-courses.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"
