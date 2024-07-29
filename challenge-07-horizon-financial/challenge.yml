@@ -1,0 +1,41 @@
+# Challenge's Metadata
+name: "Horizon Financial"
+category: Pwn
+description: "Η Horizon Financial εγκατέστησε μια λειτουργία για να ελέγχει τις συναλλαγές που γίνονται στο σύστημα. Κατά τα λεγόμενα τους είναι αρκετά ασφαλής."
+
+author: "Mike Takaronis <mtakaronis@ssl-unipi.gr>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: docker-dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+    docker_image: ctf-pmdk/pwn:horizon-financial
+
+deploy:
+    docker_challenges: dist/docker-challenge.tar
+
+flags:
+    - FLAG{0oopss..0n3_byt3_m1ght_b3_cr1t1c4l_s0m3_t1mes_391812b0d317be0584b382403f9ad0f2}
+
+topics:
+    - knowlege-and-skills-required-by-the-user
+
+tags:
+    - Εύκολη
+    - Pwn
+    - Κατάκτηση
+
+files:
+    - dist/pwn-horizon-financial.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

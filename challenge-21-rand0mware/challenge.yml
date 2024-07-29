@@ -1,0 +1,41 @@
+# Challenge's Metadata
+name: "RAND0MWARE"
+category: Rev
+description: "Τα ισχυρά πιστοποιητικά κρυπτογραφήθηκαν από ένα ransomware...Ο Jack Nelson μαζί με τους Ιταλούς πρέπει να  βρίσκονται πίσω απο αυτή την επίθεση. Και όλη αυτή η φασαρία για κάποια ανόητη γραμμή που υποτίθεται ότι έχω περάσει. Μπορεις να βοηθησεις? Αυτό είναι πιστοποιητικό που χρησιμοποιηθηκε στο ransomware."
+
+author: "Alexandros Pallis <alexandros_pallis@ssl-unipi.gr>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{br34k1ng_thr0ugh_th3_b4rr13r_0f_rand0mn355!!!}
+
+topics:
+    - Brute Force
+    - AES
+    - Key & Nonce reuse
+
+tags:
+    - Πολύ Δύσκολη
+    - Αντίστροφη Mηχανική
+    - Reverse Engineering
+    - Κρυπτογραφία
+    - Cryptography
+
+files:
+    - dist/rev-rand0mware.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

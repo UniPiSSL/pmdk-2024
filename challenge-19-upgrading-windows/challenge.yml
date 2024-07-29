@@ -1,0 +1,38 @@
+# Challenge's Metadata
+name: "Upgrading Windows"
+category: Forensics
+description: "Δεν θα μπορούσα να είμαι πιο ευχαριστημένος με την αναβάθμιση των windows μου. Ωστόσο, ποιος είναι αυτός ο user;"
+
+author: "Aggelos Solomos <asolomos11@gmail.com>, Alexandros Pallis <alexandros_pallis@ssl-unipi.gr"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{C0ngra75_Y0u_unr4v3ll3d_7h3_my573ry_b3h1nd_7h15_5u5_5cr1p7}
+
+topics:
+    - Powershell
+    - Obfusication
+
+tags:
+    - Εύκολη
+    - Digital Forensics
+    - Ψηφιακή Εγκληματολογία
+
+files:
+    - dist/forensics-upgrading-windows.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

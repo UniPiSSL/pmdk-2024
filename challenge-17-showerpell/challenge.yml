@@ -1,0 +1,40 @@
+# Challenge's Metadata
+name: "Showerpell"
+category: Forensics
+description: "Πρόσφατα είχαμε ένα περιστατικό ασφαλείας όπου ένας χρήστης εγκατέστησε κάτι κακόβουλο. Η ανάλυση του περιστατικού φαίνεται να μην τελειώνει αφού κάθε βήμα αποκαλύπτει ένα νέο επίπεδο πολυπλοκότητας. "
+
+author: "Nasia Kollarou <athanasia_kollarou@ssl-unipi.gr>, Aggelos Solomos <asolomos11@gmail.com>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{y0u_h4v3_r34ch3d_7h3_d3p7h5_0f_4_r34l_w0rld_t00l_y0u_5h0uld_b3_pr0ud!}
+
+#topics:
+#    - 
+
+# Tags are used to provide additional public tagging to a challenge
+# Can be removed if unused
+# Accepts strings
+tags:
+    - Δύσκολη
+    - Digital Forensics
+    - Ψηφιακή Εγκληματολογία
+
+files:
+    - dist/forensics-showerpell.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

@@ -1,0 +1,45 @@
+# Challenge's Metadata
+name: "Πέτρα Ψαλίδι Χαρτί"
+category: Pwn
+description: "Το κλασικό παιχνίδι γραμμένο σε Python!"
+
+author: "Athanasios Vasileios Grammatopoulos <gramthanos@gmail.com>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: docker-dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+    docker_image: ctf-pmdk/pwn:rock-paper-scissors
+
+deploy:
+    docker_challenges: dist/docker-challenge.tar
+
+flags:
+    - FLAG{I-n3eD-t0-upD4tE-mY-Sy5teM-r1ghT-nOw}
+
+topics:
+    - Python 2
+
+tags:
+    - Μέτρια
+    - Pwn
+    - Κατάκτηση
+
+files:
+    - dist/pwn-rock-paper-scissors.zip
+
+hints:
+    - {
+        content: "Για να συνδεθείτε στο παιχνίδι χρησιμοποιήστε κάποιο πρόγραμμα σαν το netcat.",
+        cost: 0
+    }
+    - {
+        content: "Σε αυτήν την δοκιμασία η κρυμμένη σημαία (flag) βρίσκετε μέσα στο αρχείο `flag.txt`",
+        cost: 0
+    }
+
+state: hidden
+version: "0.1"

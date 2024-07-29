@@ -1,0 +1,38 @@
+# Challenge's Metadata
+name: "Sloppy Encryptor"
+category: Crypto
+description: "Εάν το αντίθετο της κρυπτογράφησης είναι η αποκρυπτογράφηση και το αντίθετο της απρόσεκτης είναι προσεκτική, τότε το αντίθετο αυτής της απρόσεκτης κρυπτογράφησης θα πρέπει να είναι προσεκτική αποκρυπτογράφηση."
+
+author: "Aggelos Solomos <asolomos11@gmail.com"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{4_5l0ppy_3nc2yp702}
+
+topics:
+    - bof
+
+tags:
+    - Μέτρια
+    - Κρυπτογραφία
+    - Crptography
+    
+
+files:
+    - dist/crypto-sloppy-encryptor.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

@@ -1,0 +1,38 @@
+# Challenge's Metadata
+name: "TopDown"
+category: Misc
+description: "Χθες, γύρισα σπίτι και βρήκα ένα σημείωμα από τον αδερφό μου το οποίο έλεγε:\n\n```Καλημέρα αδερφή, πάντα δεν λες πως είσαι καλύτερη από εμένα στα παιχνίδια; Χα... ούτε καν, ό,τι κι αν κάνεις, δεν θα μπορέσεις ποτέ να με νικήσεις σε αυτό το παιχνίδι...```\n\nΒοήθησέ με να του αποδείξω ότι έχει άδικο!\n\n\n\nΔημιουργοί:\n\nΓιώργος Ρώσσης (Sizon95)\n\nΜιχάλης Ευαγγέλου (mikev)"
+
+author: "Γιώργος Ρώσσης (Sizon95), Μιχάλης Ευαγγέλου (mikev)"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{PRO_RACER_OR_HACKER?}
+
+topics:
+    - Game Hacking
+
+tags:
+    - Μέτρια
+    - Game
+    - Παιχνίδια
+    - Αντίστροφη Mηχανική
+    - Reverse Engineering
+
+files:
+    - dist/misc-top-down.zip
+
+hints:
+    - {
+        content: "Το μήνυμα που θα βρείτε θα πρέπει να το φέρετε στην μορφή των σημαιών, για παράδειγμα αν βρείτε το μήνυμα `test_message!` θα πρέπει να το υποφάλετε ως `FLAG{test_message!}`.",
+        cost: 0
+    }
+
+state: hidden
+version: "0.1"

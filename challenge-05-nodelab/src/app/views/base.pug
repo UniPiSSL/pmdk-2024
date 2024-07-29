@@ -1,0 +1,42 @@
+doctype html
+html(lang="el")
+  head
+    title= title
+    link(rel="stylesheet", href="/css/styles.css")
+    link(rel="icon", type="image/x-icon", href="/img/favicon.ico")
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css")
+  body
+    aside.side-panel
+      .logo-container
+        img(src="/img/icon.png")
+      hr.separator
+      nav.side-nav
+        ul.nav-list
+          li.nav-item(onclick="dashboard()")
+            i.fas.fa-tachometer-alt
+            span Πάνελ
+          li.nav-item(onclick="openNotePopup()")
+            i.fas.fa-file-alt
+            span Δημιουργία σημείωσης
+          li.nav-item(onclick="alert('Δυστυχώς η δυνατότητα αναζήτησης σημείωσης δεν είναι ακόμα διαθέσιμη. Ευχαριστούμε για την κατανόησή σας')")
+            i.fas.fa-search
+            span Αναζήτηση σημείωσης
+          li.nav-item(onclick="profile()")
+            i.fas.fa-user-cog
+            span Επεξεργασία προφίλ
+          li.nav-item(onclick="admin()")
+            i.fas.fa-tools
+            span Πάνελ διαχειριστή
+          li.nav-item(onclick="logout()")
+            i.fas.fa-sign-out-alt
+            span Αποσύνδεση
+    .main-container
+      .main-content
+        block content
+      .footer-dashboard
+        footer
+        |  Nodelab &copy; 2024
+    script(src="/js/displayBox.js")
+    script(src="/js/dashboard.js")

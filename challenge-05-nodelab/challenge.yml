@@ -1,0 +1,40 @@
+# Challenge's Metadata
+name: "Nodelab"
+category: Web
+description: "Η Nodelab είναι μια διαδικτυακή εφαρμογή που επιτρέπει σε μαθητές να διαχειρίζονται ηλεκτρονικά τις σημειώσεις τους με ευκολία. Ωστόσο, δεν έχει πραγματοποιηθεί εκτενής έλεγχος ασφάλειας, και οι διαχειριστές φοβούνται ότι σε περίπτωση κυβερνοεπίθεσης, μπορεί να διαρρεύσουν ευαίσθητα δεδομένα χρηστών. Μπορείς να εντοπίσεις κάποιο κενό ασφάλειας για να ενημερώσουμε τους διαχειριστές;\n\nΔημιουργός: farsight"
+
+author: "farsight <farsight@tutamail.com>"
+
+type: docker-dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+    docker_image: ctf-pmdk/web:nodelab
+
+deploy:
+    docker_challenges: dist/docker-challenge.tar
+
+flags:
+    - FLAG{f1l73r_byp4551n6_t0w4rd5_4dm1n}
+
+topics:
+    - Node.js
+
+tags:
+    - Μέτρια
+    - Παγκόσμιος Ιστός
+    - Web
+
+files:
+    - dist/web-nodelab-code.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

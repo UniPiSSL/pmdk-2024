@@ -1,0 +1,41 @@
+# Challenge's Metadata
+name: "Εφαρμογή πινάκων"
+category: Pwn
+description: "Μια απλή εφαρμογή για καταχώρηση τιμών σε πίνακα. Τι μπορεί να πάει στραβά;"
+
+author: "Mike Takaronis <mtakaronis@ssl-unipi.gr>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: docker-dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+    docker_image: ctf-pmdk/pwn:matrix-app
+
+deploy:
+    docker_challenges: dist/docker-challenge.tar
+
+flags:
+    - FLAG{3907603d66d0ebd81e9d67e092739e24_3xpl01t1ng_Out_0f_B0unds_L34ds_t0_Un3xp3ct3d_4dv3ntur3s}
+
+topics:
+    - knowlege-and-skills-required-by-the-user
+
+tags:
+    - Μέτρια
+    - Pwn
+    - Κατάκτηση
+
+files:
+    - dist/pwn-array-app.zip
+
+#hints:
+#    - {
+#        content: "No hints.",
+#        cost: 0
+#    }
+
+state: hidden
+version: "0.1"

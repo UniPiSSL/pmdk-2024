@@ -1,0 +1,22 @@
+extends base.pug
+
+block content
+  div#profileMain
+    h1 ~ Άλλαγη Στοιχείων ~
+    .form-container
+      form(method="put", onSubmit="updateUserInfo(event)", action="/api/auth/update")
+        .form-group
+          label(for="newUsername") Νέο όνομα χρήστη
+          input#newUsername(type="text", name="newUsername", placeholder=currentUser)
+        .form-group
+          label(for="newSchool") Νέο όνομα σχολείου
+          input#newSchool(type="text", name="newSchool", placeholder=currentSchool)
+        .form-group
+          label(for="newPassword") Νέος κωδικός πρόσβασης
+          input#newPassword(type="password", name="newPassword")
+        hr
+        .form-group 
+          label(for="currentPassword") Τρέχων κωδικός πρόσβασης
+          input#currentPassword(type="password", name="currentPassword")
+        .submit
+          button(type="submit") Υποβολή

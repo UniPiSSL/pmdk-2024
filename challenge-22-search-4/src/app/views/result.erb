@@ -1,0 +1,24 @@
+
+
+<h3 class="display-6 text-center">Search Result</h3>
+<div>
+	<% if @result.is_a?(Array) %>
+		<% @result.each do |value| %>
+	<div class="card my-2">
+		<div class="card-body">
+			<%= value %>
+			<% if @url && @search_string %>
+			<div class="text-end">
+				<a href="<%= @url %>#:~:text=<%= URI.encode_www_form_component(@search_string) %>" class="btn btn-outline-secondary btn-sm">Visit &gt;</a>
+			</div>
+			<% end %>
+		</div>
+	</div>
+		<% end %>
+	<% else %>
+	<p><%= @result %></p>
+	<% end %>
+</div>
+<div class="text-end">
+	<a href="/" class="btn btn-primary">New Search</a>
+</div>

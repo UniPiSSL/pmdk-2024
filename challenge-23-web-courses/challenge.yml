@@ -1,0 +1,33 @@
+# Challenge's Metadata
+name: "Web Courses"
+category: Web
+description: "Το σχολείο μας φτιάχνει μια διαδικτυακή εφαρμογή για να ανεβάζουν καθηγητές και μαθητές υλικό για τα μαθήματα σε ψηφιακή μορφή. Δεδομένου ότι ο ιστότοπος είναι ακόμα υπό κατασκευή, μας ανατέθηκε η διενέργεια δοκιμών για τυχόν προβλήματα ασφαλείας."
+
+author: "Athanasios Grammatopoulos <gramthanos@gmail.com>"
+homepage: "https://github.com/GramThanos"
+
+type: docker-dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+    docker_image: ctf-pmdk/web:web-courses
+
+deploy:
+    docker_challenges: dist/docker-challenge.tar
+
+flags:
+    - FLAG{I-e4t-SQL-inJ3cTi0N-f0R-br3AkF45T!}
+
+topics:
+    - PHP
+    - SQLi
+
+tags:
+    - Εύκολη
+    - Παγκόσμιος Ιστός
+    - Web
+
+state: hidden
+version: "0.1"

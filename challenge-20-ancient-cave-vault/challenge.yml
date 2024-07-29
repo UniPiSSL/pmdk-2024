@@ -1,0 +1,40 @@
+# Challenge's Metadata
+name: "Ancient Cave Vault"
+category: Rev
+description: In the heart of a forbidding cave, an intrepid explorer ventured through the oppressive darkness, shadows dancing at the edge of her lantern's light. She stumbled upon an enigmatic ancient vault, its entrance adorned with cryptic symbols. Determined, she desperately tries to find the correct passphrase that will unlock the secrets within. But her time is running low and the beasts of the cave are starting to wake up. Can you help her?
+
+author: "Angelos Solomos <asolomos011@gmail.com>"
+homepage: "https://ssl.ds.unipi.gr/"
+
+type: dynamic
+value: 600
+extra:
+    initial: 600
+    minimum: 100
+    decay: 20
+
+flags:
+    - FLAG{y0u_unl0ck3d_7h3_f029073n_53c2375}
+
+topics:
+    - .NET/Mono Assembly
+    - C# executable
+    - DnSpy Rev
+    - AES decryption
+
+tags:
+    - Εύκολη
+    - Αντίστροφη Mηχανική
+    - Reverse Engineering
+
+files:
+    - dist/rev-ancient-cave-vault.zip
+
+hints:
+    - {
+        content: "What programs are used for .NET assembly decompilation?",
+        cost: 0,
+    }
+
+state: hidden
+version: "0.1"
