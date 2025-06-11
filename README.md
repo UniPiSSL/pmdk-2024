@@ -10,14 +10,14 @@ O 2ος [Πανελλήνιος Μαθητικός Διαγωνισμός Κυβ
 
 ## Κύριες Δοκιμασίες
 
-|   # | Κατηγορία | Δοκιμασία                                                                | Δυσκολία     | Λύσεις | Δημιουργός                                                    |
+|   # | Κατηγορία                     | Δοκιμασία                                                                | Δυσκολία     | Λύσεις | Δημιουργός                                                    |
 | --: | :---------------------------- | :----------------------------------------------------------------------- | :----------- | -----: | :------------------------------------------------------------ |
 |   1 | Διάφορα                       | [Η Αυθεντική Φωτογραφία](challenge-01-the-original-image/writeup/)       | Μέτρια       | 30     | [Αθανάσιος Γραμματόπουλος](https://github.com/gramthanos)     |
 |   2 | Εκμετάλλευση Δυαδικών Αρχείων | [Πέτρα Ψαλίδι Χαρτί](challenge-02-rock-paper-scissors/writeup/)          | Μέτρια       | 10     | [Αθανάσιος Γραμματόπουλος](https://github.com/gramthanos)     |
 |   3 | Κρυπτογραφία                  | [Lobotomy Kaisen](challenge-03-lobotomy-kaisen/writeup/)                 | Δύσκολη      | 8      | ApparentlyPlus @ Πανεπιστήμιο Μακεδονίας                      |
 |   4 | Κρυπτογραφία                  | [Twisted Algebra](challenge-04-twisted-algebra/writeup/)                 | Πολύ Δύσκολη | 8      | ApparentlyPlus @ Πανεπιστήμιο Μακεδονίας                      |
 |   5 | Παγκόσμιος Ιστός              | [Νodelab](challenge-05-nodelab/writeup/)                                 | Μέτρια       | 13     | Γεώργιος Τσιαμούλης (farsight)                                |
-|   6 | Αντίστροφη Μηχανική           | [Ransomware v2](challenge-06-ransomware-v2/writeup/)                     | Δύσκολη      | 7      | ***REMOVED*** (saspect)                                 |
+|   6 | Αντίστροφη Μηχανική           | [Ransomware v2](challenge-06-ransomware-v2/writeup/)                     | Δύσκολη      | 7      | saspect                                                       |
 |   7 | Εκμετάλλευση Δυαδικών Αρχείων | [Horizon Financial](challenge-07-horizon-financial/writeup/)             | Εύκολη       | 13     | [Μιχάλης Τακαρώνης](https://github.com/R3dSh3rl0ck)           |
 |   8 | Εκμετάλλευση Δυαδικών Αρχείων | [Hacktrox](challenge-08-hacktrox/writeup/)                               | Εύκολη       | 3      | [Μιχάλης Τακαρώνης](https://github.com/R3dSh3rl0ck)           |
 |   9 | Εκμετάλλευση Δυαδικών Αρχείων | [Εφαρμογή πινάκων](challenge-09-array-app/writeup/)                      | Μέτρια       | 4      | [Μιχάλης Τακαρώνης](https://github.com/R3dSh3rl0ck)           |

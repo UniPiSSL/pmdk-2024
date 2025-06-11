@@ -3,7 +3,7 @@ name: "Ransomware v2"
 category: Rev
 description: "Η εταιρία μας ξαναέπεσε θύμα κυβερνοεπίθεσης (oops!), όμως αυτή την φορά οι εγκληματίες έμαθαν από τα λάθη τους και έτσι δεν διέρρευσε ο πηγαίος κώδικας του λυτρισμικού. Μπορείς να σώσεις τα αρχεία μας?\n\nΔημιουργός: ***REMOVED*** (saspect)"
 
-author: "***REMOVED*** (saspect)"
+author: "saspect"
 
 type: dynamic
 value: 600
